@@ -36,6 +36,6 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Check black
-      run: black --check irs_reader tests
+      run: black --check irsdb
     - name: isort
-      run: isort --profile=black --check-only irs_reader tests
+      run: isort --profile=black --check-only irsdb
