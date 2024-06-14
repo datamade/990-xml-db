@@ -18,7 +18,7 @@ And two of which are used for generating the schemas for the returns.
 ### Loading in 990 Filings and Returns
 To use `irsdb.filing` and `irsdb.return` in in your application, first
 install this package. You could do that by adding
-`https://github.com/datamade/990-xml-db/archive/refs/heads/feature/installable.zip`
+`https://github.com/datamade/990-xml-db/archive/refs/heads/feature/main.zip`
 to your app's `requirements.txt` file.
 
 Then have the following settings in your app's settings.py file:
@@ -75,7 +75,7 @@ will generate a new `models.py` that you can use for the `return` app based on w
 the `irsx` package currently knows about schemas.
 
 To use, first install this repo. You could do that by adding
-`https://github.com/datamade/990-xml-db/archive/refs/heads/feature/installable.zip`
+`https://github.com/datamade/990-xml-db/archive/refs/heads/feature/main.zip`
 to your app's `requirements.txt` file.
 
 Then have the following settings in your app's settings.py file:
