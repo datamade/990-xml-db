@@ -143,7 +143,6 @@ def get_django_type(vartype):
 
 
 def get_sqlalchemy_type(vartype):
-
     """This is really rough, not tested, may change"""
 
     try:
